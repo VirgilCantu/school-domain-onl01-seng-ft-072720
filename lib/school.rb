@@ -23,7 +23,7 @@ attr_accessor :roster
 
   def sort
     @roster.each do |grade, students|
-      students.sort
+       puts students.sort
       #binding.pry
 
     end
