@@ -24,9 +24,9 @@ attr_accessor :roster
   def sort
     @roster.each do |grade, students|
         students.sort
-        students
-      #binding.pry
+        #binding.pry
 
+        students
     end
   end
 end
